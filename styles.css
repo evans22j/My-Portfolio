@@ -113,13 +113,16 @@ header .close img {
   color: #344563;
 }
 
-.media-platform {
+ul.media-platform {
   display: flex;
   padding: 20px;
   padding-left: 2rem;
   list-style-type: none;
-  color: #505f79;
   margin-top: 2.4rem;
+  gap: 12px;
+}
+ul li i {
+  color: #505f79;
 }
 
 .connect {
