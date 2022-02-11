@@ -2,21 +2,19 @@ body {
   margin: 0;
   padding: 0;
   text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  background-color: #e5e5e5;
 }
 
 html {
   overflow-x: hidden;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-  background-color: #e5e5e5;
-}
-
 h1 {
   text-align: left;
   margin: 149px 0 10px 26px;
 }
+
 .white {
   background-color: #fff;
   width: 100%;
@@ -121,6 +119,7 @@ ul.media-platform {
   margin-top: 2.4rem;
   gap: 12px;
 }
+
 ul li i {
   color: #505f79;
 }
