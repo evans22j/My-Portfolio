@@ -40,7 +40,7 @@ h1 {
 }
 
 header .close {
-  margin-right: -70px;
+  margin-right: -123px;
   float: right;
 }
 
@@ -50,6 +50,7 @@ header .close img {
 
 .logo {
   padding-left: 2rem;
+  margin-left: -15px;
 }
 
 .logo a {
