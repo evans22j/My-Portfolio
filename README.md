@@ -1,6 +1,9 @@
 # My-Portfolio
 This is a portfolio website created by using the template provided in Figma.
 
+# screenshot
+[screenshot](./photos/screenshot-1.png)
+
 
 ## Built With
 
