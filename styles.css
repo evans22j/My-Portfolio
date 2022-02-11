@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   text-decoration: none;
 }
 
@@ -34,11 +33,11 @@ h1 {
   display: none;
 }
 
-.header.shadow {
+.header .shadow {
   box-shadow: -3px -2px 35px 11px rgba(0, 0, 0, 0.15);
 }
 
-.header.open .bar {
+.header .open .bar {
   display: flex;
 }
 
@@ -107,17 +106,16 @@ header .close img {
 
 .content p {
   margin: 25px;
+  font-size: 16px;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
   line-height: 24px;
   color: #344563;
 }
 
 .media-platform {
-  width: 100%;
   display: flex;
-  gap: 20px;
+  padding: 20px;
   padding-left: 2rem;
   list-style-type: none;
   color: #505f79;
