@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 👤 **Evans Sitibekiso**
 
 - GitHub: [@evans22j](https://github.com/evans22j)
-- Twitter: [@twitterhandle](https://twitter.com/Evans_22J)
+- Twitter: [@Evans_22J](https://twitter.com/Evans_22J)
 - LinkedIn: [Evans Sitibekiso](https://www.linkedin.com/in/evans-sitibekiso-a85753202/)
 
 
