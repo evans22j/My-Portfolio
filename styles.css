@@ -93,7 +93,7 @@ header .close img {
 }
 
 .content {
-  background-image: url(./images/header-mobile.png);
+  background-image: url(header-mobile.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
