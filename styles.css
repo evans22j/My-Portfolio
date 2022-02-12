@@ -1,7 +1,12 @@
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  list-style: none;
   text-decoration: none;
+}
+
+body {
   font-family: "Poppins", sans-serif;
   background-color: #e5e5e5;
 }
@@ -129,3 +134,307 @@ ul li i {
   margin-left: 25px;
   color: #7f8cff;
 }
+
+info {
+  margin-left: 15px;
+  gap: 10px;
+  display: flex;
+}
+
+.spanDev {
+  padding-left: 32px;
+  color: #7A869A;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.container {
+
+}
+.container-fluid {
+width: 361px;
+padding-top: 114px;
+
+}
+
+.card-details {
+  width: 327px;
+  height: 552px;
+  background-color: #fff;
+  border: 1px solid #DFE1E6;
+  border-radius: 16px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-details img {
+padding-top: 16px;
+
+}
+
+.languages {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  margin-top: 12px;
+}
+
+.languages li {
+  background-color:#EBEBFF;
+  padding: 4px 12px;
+  border-radius: 8px;
+  color: #6070FF;
+  font-size:12px;
+}
+
+.text-div {
+  display: flex;
+  margin-top: 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 15px;
+
+}
+.see-project a {
+  font-size: 17px;
+  text-decoration: none;
+  color:#396DF2;
+}
+
+.see-project {
+  color: #396DF2;
+  padding: 16px;
+  background: #fff;
+  border-radius:16px;
+  border: solid 1px #396DF2;
+  margin-top: 40px;
+}
+
+.see-project:hover {
+  background-color: #6070FF;
+  color: white;
+}
+
+.see-project:active{
+  background: #2230D2;
+  color: white;
+}
+
+.see-project:disabled {
+  background: #E5E5E5;
+  color: #5E6C84;
+}
+
+
+
+.common {
+  color: #7A869A;
+  list-style: circle;
+}
+
+.tech-btns {
+  display: flex;
+  gap: 25px;
+}
+
+.paragraph {
+  margin-top: 16px;
+  color: #344563;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.cards {
+  display:grid;
+  grid-template-columns: auto;
+  gap: 88px;
+  margin-top: 114px;
+  margin-bottom: 200px;
+}
+/* 
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e5e5e5;
+}
+
+h1 {
+  text-align: left;
+  margin: 149px 0 10px 26px;
+}
+#header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  z-index: 999;
+}
+
+#header .bar {
+  display: none;
+}
+
+#header.shadow {
+  box-shadow: -3px -2px 35px 11px rgba(0, 0, 0, 0.15);
+}
+
+#header.open .bar {
+  display: flex;
+}
+
+.logo {
+  padding-left: 2rem;
+}
+
+.logo a {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #6070ff;
+  flex-wrap: nowrap;
+  text-decoration: none;
+}
+
+.logo:hover {
+  animation-name: rotate;
+  animation-duration: 1.7s;
+}
+
+.navbar {
+  height: 100%;
+}
+
+.nav-list {
+  display: none;
+}
+
+.navbar .menu {
+  height: 100%;
+  line-height: 50px;
+  padding-right: 2.5rem;
+}
+
+.navbar .menu .bx {
+  font-size: 3rem;
+  color: #6070ff;
+  line-height: 50px;
+}
+
+.main-container {
+  display: flex;
+  width: 60%;
+  height: 100vh;
+}
+
+.headline {
+  background-image: url(./images/header-mobile.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  border-bottom-left-radius: 5rem;
+  background-color: #fff;
+  position: relative;
+}
+
+.headline p {
+  margin: 25px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.social-media {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  padding-left: 2rem;
+  margin-top: 2.4rem;
+  list-style-type: none;
+  color: #505f79;
+}
+
+.connect {
+  margin-left: 25px;
+  color: #7f8cff;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+button {
+  background-color: white;
+  color: #396df2;
+  border: 2px solid #008cba;
+  border-radius: 8px;
+  width: 109px;
+  height: 51px;
+  margin: 19px;
+}
+
+.card-details img {
+  margin: 16px;
+}
+
+.work-section {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 88px;
+  margin-top: 114px;
+}
+
+.container {
+  width: 50%;
+  display: flex;
+}
+
+.container-fluid {
+  background: #fff;
+  border-radius: 16px;
+}
+
+.title {
+  margin-left: 15px;
+}
+
+.paragraph {
+  margin-left: 15px;
+}
+
+.languages {
+  display: flex;
+  gap: 15px;
+  margin-left: 15px;
+  list-style: none;
+}
+
+.languages li {
+  background: #ebebff;
+  padding: 8px;
+  border-radius: 6px;
+  background: #ebebff;
+}
+
+. */
+
