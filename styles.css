@@ -49,6 +49,10 @@ header .close {
   float: right;
 }
 
+.card-details img {
+  padding-top: 16px;
+}
+
 header .close img {
   width: 65px;
 }
@@ -135,15 +139,9 @@ ul li i {
   color: #7f8cff;
 }
 
-info {
-  margin-left: 15px;
-  gap: 10px;
-  display: flex;
-}
-
 .spanDev {
   padding-left: 32px;
-  color: #7A869A;
+  color: #7a869a;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -152,26 +150,20 @@ info {
 }
 
 .container-fluid {
-width: 361px;
-padding-top: 114px;
-
+  width: 361px;
+  padding-top: 114px;
 }
 
 .card-details {
   width: 327px;
   height: 552px;
   background-color: #fff;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
   display: flex;
   margin: auto;
   flex-direction: column;
   align-items: center;
-}
-
-.card-details img {
-padding-top: 16px;
-
 }
 
 .languages {
@@ -182,11 +174,11 @@ padding-top: 16px;
 }
 
 .languages li {
-  background-color:#EBEBFF;
+  background-color: #ebebff;
   padding: 4px 12px;
   border-radius: 8px;
-  color: #6070FF;
-  font-size:12px;
+  color: #6070ff;
+  font-size: 12px;
 }
 
 .text-div {
@@ -195,42 +187,40 @@ padding-top: 16px;
   flex-direction: column;
   align-items: flex-start;
   margin-left: 15px;
-
 }
+
 .see-project a {
   font-size: 17px;
   text-decoration: none;
-  color:#396DF2;
+  color: #396df2;
 }
 
 .see-project {
-  color: #396DF2;
+  color: #396df2;
   padding: 16px;
   background: #fff;
-  border-radius:16px;
-  border: solid 1px #396DF2;
+  border-radius: 16px;
+  border: solid 1px #396df2;
   margin-top: 40px;
 }
 
 .see-project:hover {
-  background-color: #6070FF;
+  background-color: #6070ff;
   color: white;
 }
 
-.see-project:active{
-  background: #2230D2;
+.see-project:active {
+  background: #2230d2;
   color: white;
 }
 
 .see-project:disabled {
-  background: #E5E5E5;
-  color: #5E6C84;
+  background: #e5e5e5;
+  color: #5e6c84;
 }
 
-
-
 .common {
-  color: #7A869A;
+  color: #7a869a;
   list-style: circle;
 }
 
@@ -252,7 +242,7 @@ padding-top: 16px;
 }
 
 .cards {
-  display:grid;
+  display: grid;
   grid-template-columns: auto;
   gap: 88px;
   margin-top: 114px;
