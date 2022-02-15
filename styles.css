@@ -253,12 +253,22 @@ ul li i {
   background-color: #6070ff;
 }
 
+.container {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  border: 1px;
+  padding-bottom: 48px;
+}
+
 .contact-form h2 {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
+  justify-content: center;
+  margin: 50px;
 
   color: #ffffff;
 }
@@ -271,6 +281,8 @@ ul li i {
   line-height: 28px;
   text-align: center;
   color: #ebebff;
+  justify-content: center;
+  padding: 10px;
 }
 
 .form input {
