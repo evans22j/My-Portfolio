@@ -180,27 +180,48 @@
       </section>
       <section class="contact-form">
         <div class="container">
-        <h2>Contact me</h2>
-        <p>
-          If you have an application you are interested in developing, a feature
-          that you need built or a project that needs coding. I’d love to help
-          with it
-        </p>
-        <form
-          action="https://formspree.io/f/mvolakkg"
-          method="POST"
-          class="form">
-          <input type="text" name="name" placeholder="Name" maxlength="30" />
-          <input type="email" name="email" id="" placeholder="Email" />
-          <textarea
-            name="message"
-            id=""
-            placeholder="Write your message here"
-            maxlength="500"
-          ></textarea>
-          <button type="submit">Get It Touch</button>
-        </form>
-      </div>
+          <div class="description-contact">
+            <h2>Contact me</h2>
+            <p>
+              If you have an application you are interested in developing, a
+              feature that you need built or a project that needs coding. I’d
+              love to help with it
+            </p>
+          </div>
+          <form
+            action="https://formspree.io/f/mvolakkg"
+            method="POST"
+            class="form"
+          >
+            <input
+              type="text"
+              name="name"
+              placeholder="Name"
+              maxlength="30"
+              class="form"
+              id="name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              class="form"
+              id="email"
+              required
+            />
+            <textarea
+              name="message"
+              id="textarea"
+              placeholder="Write your message here"
+              maxlength="500"
+            ></textarea>
+            <button class="see-project-btn" type="submit">Get It Touch</button>
+          </form>
+        </div>
+        <div class="line-1">
+          <hr class="hr" />
+        </div>
       </section>
     </main>
   </body>
