@@ -174,7 +174,7 @@ ul.classic {
 
 .classic-name {
   color: #253858;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-size: 15px;
   line-height: 20px;
   padding-top: 18px;
@@ -347,7 +347,7 @@ ul.skills li {
 }
 
 .prgph {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -365,7 +365,7 @@ ul.skills li {
 }
 
 .btn-get {
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   color: #396df2;
   line-height: 24px;
   padding: 16px;
@@ -492,6 +492,15 @@ form {
 
 .button {
   border-radius: 500px;
+}
+
+.see-project-btn {
+  transition: transform, color, 2s;
+}
+
+.see-project-btn:hover {
+  transform: scale(1.2);
+  color: rgb(182, 92, 92);
 }
 
 .line1 {
