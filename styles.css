@@ -237,11 +237,14 @@ ul.classic li {
   border-radius: 16px;
   border: solid 1px #396df2;
   margin-top: 0;
+  transition: transform, color, 3s;
+  transform: scale(1.2);
 }
 
 .see-project:hover {
   background-color: #6070ff;
   color: white;
+  color: rgb(143, 10, 10);
 }
 
 .see-project:active {
@@ -268,6 +271,7 @@ ul.classic li {
 .see-project-btn:hover {
   background-color: #6070ff;
   color: white;
+  color: rgb(182, 92, 92);
 }
 
 .see-project-btn:active {
