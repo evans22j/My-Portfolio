@@ -498,15 +498,6 @@ form {
   border-radius: 500px;
 }
 
-.see-project-btn {
-  transition: transform, color, 2s;
-}
-
-.see-project-btn:hover {
-  transform: scale(1.2);
-  color: rgb(182, 92, 92);
-}
-
 .line1 {
   width: 100%;
   height: 12px;
@@ -529,10 +520,9 @@ hr {
 
 @media screen and (min-width: 992px) {
   .content {
-
     background-image: url(./photos/Header-bg.svg);
   }
-  
+
   .white {
     padding-left: 80px;
     position: relative;
@@ -556,10 +546,6 @@ hr {
 
   .menu-mobile ul li {
     margin: 10px;
-  }
-
-  .content {
-    padding: 100px;
   }
 
   .card-details {
@@ -596,7 +582,8 @@ hr {
     justify-content: center;
   }
 
-  .about .head, .bottom {
+  .about .head,
+  .bottom {
     width: 50%;
   }
 
@@ -606,6 +593,7 @@ hr {
 
   .contact-form {
     padding: 100px;
+
     /* margin-left: 40px; */
     padding-left: 300px;
     padding-right: 300px;
