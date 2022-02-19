@@ -528,7 +528,11 @@ hr {
 }
 
 @media screen and (min-width: 992px) {
+  .content {
 
+    background-image: url(./photos/Header-bg.svg);
+  }
+  
   .white {
     padding-left: 80px;
     position: relative;
