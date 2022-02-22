@@ -9,6 +9,7 @@ This is a portfolio website created by using the template provided in Figma.
 
 - HTML
 - CSS
+- Vscode
 
 ## Materials required for validation
 - follow this link :
