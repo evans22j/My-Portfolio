@@ -528,12 +528,9 @@ hr {
 .lang-name {
   display: flex;
   padding-bottom: 23px;
-
   align-items: center;
   justify-content: space-between;
 }
-
-
 
 @media screen and (min-width: 992px) {
   .content {
@@ -620,6 +617,7 @@ hr {
   .details {
     padding-top: 0;
   }
+
   .lang-li {
     /* background: greenyellow; */
     width: 150%;
@@ -633,9 +631,11 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
   .classic {
     justify-content: space-between;
   }
+
   .contact-form p {
     width: 100%;
   }
