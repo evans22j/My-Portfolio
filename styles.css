@@ -9,6 +9,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #e5e5e5;
+  width: 100vw;
 }
 
 html {
@@ -527,9 +528,12 @@ hr {
 .lang-name {
   display: flex;
   padding-bottom: 23px;
+
   align-items: center;
   justify-content: space-between;
 }
+
+
 
 @media screen and (min-width: 992px) {
   .content {
@@ -616,6 +620,10 @@ hr {
   .details {
     padding-top: 0;
   }
+  .lang-li {
+    /* background: greenyellow; */
+    width: 150%;
+  }
 
   .contact-form {
     background-color: #6070ff;
@@ -625,7 +633,9 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
   }
-
+  .classic {
+    justify-content: space-between;
+  }
   .contact-form p {
     width: 100%;
   }
@@ -642,7 +652,7 @@ hr {
     justify-content: center;
   }
 
-  .skil {
-    padding-left: 22%;
+  .skill {
+    padding-left: 15%;
   }
 }
