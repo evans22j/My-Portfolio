@@ -266,12 +266,13 @@ ul.classic li {
   font-size: 17px;
   border-radius: 16px;
   border: solid 1px #396df2;
+  transition: transform, color, 2s;
 }
 
 .see-project-btn:hover {
   background-color: #6070ff;
   color: white;
-  color: rgb(182, 92, 92);
+  transform: scale(1.2);
 }
 
 .see-project-btn:active {
@@ -496,15 +497,6 @@ form {
 
 .button {
   border-radius: 500px;
-}
-
-.see-project-btn {
-  transition: transform, color, 2s;
-}
-
-.see-project-btn:hover {
-  transform: scale(1.2);
-  color: rgb(182, 92, 92);
 }
 
 .line1 {
