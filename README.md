@@ -32,6 +32,13 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@Evans_22J](https://twitter.com/Evans_22J)
 - LinkedIn: [Evans Sitibekiso](https://www.linkedin.com/in/evans-sitibekiso-a85753202/)
 
+## Author
+
+👤 **Evans Sitibekiso**
+
+- GitHub: [@ksigei](https://github.com/ksigei)
+- Twitter: [@_kipronojaphet](https://twitter.com/@_kipronojaphet)
+- LinkedIn: [@kiprono-japhet](https://www.linkedin.com/in/kiprono-japhet-85aab1220)
 
 ## 🤝 Contributing
 
