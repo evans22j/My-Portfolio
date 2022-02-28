@@ -9,6 +9,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #e5e5e5;
+  width: 100vw;
 }
 
 html {
@@ -17,7 +18,8 @@ html {
 
 h1 {
   text-align: left;
-  margin: 149px 0 10px 26px;
+  margin: 26% 0 10px 26px;
+  font-size: 48px;
 }
 
 .white {
@@ -74,6 +76,13 @@ header .close img {
   animation-name: rotate;
   animation-duration: 1.7s;
 }
+
+/* .languages-ul li {
+  flex-direction: column;
+  height: 120px;
+  align-items: center;
+  gap: 0;
+  width: 120px; */
 
 .menu-mobile {
   height: 100%;
@@ -241,6 +250,17 @@ ul.classic li {
   transform: scale(1.2);
 }
 
+.see-project-btn {
+  color: #396df2;
+  width: 140px;
+  font-family: "Poppins", sans-serif;
+  padding: 16px;
+  background: #fff;
+  font-size: 17px;
+  border-radius: 16px;
+  border: solid 1px #396df2;
+}
+
 .see-project:hover {
   background-color: #6070ff;
   color: white;
@@ -257,26 +277,15 @@ ul.classic li {
   color: #5e6c84;
 }
 
-.see-project-btn {
-  color: #396df2;
-  width: 140px;
-  font-family: "Poppins", sans-serif;
-  padding: 16px;
-  background: #fff;
-  font-size: 17px;
-  border-radius: 16px;
-  border: solid 1px #396df2;
+.see-project-btn:active {
+  background: #2230d2;
+  color: white;
 }
 
 .see-project-btn:hover {
   background-color: #6070ff;
   color: white;
   color: rgb(182, 92, 92);
-}
-
-.see-project-btn:active {
-  background: #2230d2;
-  color: white;
 }
 
 .see-project-btn:disabled {
@@ -416,8 +425,10 @@ ul.ul-skills li {
 }
 
 .contact-form {
-  background: #6070ff url("./photos/contact\ form-mobile.png") no-repeat right;
+  background-image: url("./photos/contact\ form-mobile.png");
   border-radius: 75px 0 0 0;
+  background-color: #6070ff;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -469,7 +480,10 @@ ul.ul-skills li {
 
 .description-contact {
   margin: auto;
-  width: 84%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 form {
@@ -498,15 +512,6 @@ form {
   border-radius: 500px;
 }
 
-.see-project-btn {
-  transition: transform, color, 2s;
-}
-
-.see-project-btn:hover {
-  transform: scale(1.2);
-  color: rgb(182, 92, 92);
-}
-
 .line1 {
   width: 100%;
   height: 12px;
@@ -525,4 +530,129 @@ hr {
   padding-bottom: 23px;
   align-items: center;
   justify-content: space-between;
+}
+
+@media screen and (min-width: 992px) {
+  .content {
+    background-image: url(./photos/Header-bg.svg);
+  }
+
+  .white {
+    padding-left: 80px;
+    position: relative;
+  }
+
+  .main-content {
+    padding-left: 20%;
+  }
+
+  .logo {
+    width: 60%;
+  }
+
+  ul.classic {
+    flex-direction: row;
+  }
+
+  .para-text {
+    width: 920px;
+    height: 98px;
+  }
+
+  .nav-list {
+    display: inline-flex;
+  }
+
+  .menu-mobile {
+    margin-top: 30px;
+  }
+
+  header .close {
+    display: none;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+
+  .menu-mobile ul li {
+    margin: 10px;
+  }
+
+  .card-details {
+    flex-direction: inherit;
+    height: auto;
+    width: auto;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
+  .card-details img {
+    padding-top: 0;
+    width: 100%;
+  }
+
+  .image {
+    width: 50%;
+  }
+
+  .text-div {
+    width: 50%;
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .About-Myself {
+    padding: 100px;
+  }
+
+  .about .head,
+  .bottom {
+    width: 50%;
+  }
+
+  .details {
+    padding-top: 0;
+  }
+
+  .lang-li {
+    /* background: greenyellow; */
+    width: 150%;
+  }
+
+  .contact-form {
+    background-color: #6070ff;
+    width: 1440px;
+    height: 846px;
+    background-image: url(./photos/form.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .classic {
+    justify-content: space-between;
+  }
+
+  .contact-form p {
+    width: 100%;
+  }
+
+  .lang-name h2 {
+    padding-right: 100%;
+  }
+
+  .container {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skill {
+    padding-left: 15%;
+  }
 }
