@@ -1,9 +1,10 @@
 # My-Portfolio
+
 This is a portfolio website created by using the template provided in Figma.
 
 # screenshot
-[screenshot](./photos/screenshot-1.png)
 
+[screenshot](./photos/screenshot-1.png)
 
 ## Built With
 
@@ -11,11 +12,14 @@ This is a portfolio website created by using the template provided in Figma.
 - CSS
 
 ## Materials required for validation
+
 - follow this link :
-[HTML and CSS Linters link]( https://github.com/microverseinc/linters-config/tree/master/html-css)
+  [HTML and CSS Linters link](https://github.com/microverseinc/linters-config/tree/master/html-css)
 
 ## Live Demo
-Not Available
+
+- See live demo:
+  [Link](https://evans22j.github.io/My-Portfolio/)
 
 ## Getting Started
 
@@ -31,7 +35,6 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@evans22j](https://github.com/evans22j)
 - Twitter: [@Evans_22J](https://twitter.com/Evans_22J)
 - LinkedIn: [Evans Sitibekiso](https://www.linkedin.com/in/evans-sitibekiso-a85753202/)
-
 
 ## 🤝 Contributing
 
