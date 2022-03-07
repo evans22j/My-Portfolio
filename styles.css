@@ -537,7 +537,7 @@ hr {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: red;
+  background-color: white;
   width: 100vw;
 }
 
@@ -548,6 +548,12 @@ hr {
   align-items: center;
 }
 
+.evans {
+  display: flex;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
 @media screen and (min-width: 992px) {
   .content {
     background-image: url(./photos/Header-bg.svg);
@@ -639,7 +645,7 @@ hr {
     width: 150%;
   }
 
-  .x-btn {
+  .evans {
     display: none;
   }
 
