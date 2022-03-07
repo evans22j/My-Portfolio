@@ -14,6 +14,7 @@ body {
 
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -469,7 +470,6 @@ ul.ul-skills li {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
-  margin: 10px auto;
   font-size: 20px;
   width: 305px;
   line-height: 28px;
@@ -530,6 +530,22 @@ hr {
   padding-bottom: 23px;
   align-items: center;
   justify-content: space-between;
+}
+
+.popNav {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: red;
+  width: 100vw;
+}
+
+.popUl {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
 }
 
 @media screen and (min-width: 992px) {
@@ -621,6 +637,10 @@ hr {
   .lang-li {
     /* background: greenyellow; */
     width: 150%;
+  }
+
+  .x-btn {
+    display: none;
   }
 
   .contact-form {
