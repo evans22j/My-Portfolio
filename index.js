@@ -11,7 +11,6 @@ function pop() {
     navList.classList.add('popUl')
 
 }
-
 bars.addEventListener("click",pop)
 
 function closePopup(){
