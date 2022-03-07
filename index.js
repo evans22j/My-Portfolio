@@ -11,11 +11,16 @@ function pop() {
 }
 bars.addEventListener("click", pop);
 
+
 function closePopup() {
   nav.classList.remove("popNav");
   navList.classList.remove("popUl");
 }
+
+
 evans.addEventListener("click", closePopup);
+
+
 
 links.forEach((link) => {
   link.addEventListener("click", closePopup);
