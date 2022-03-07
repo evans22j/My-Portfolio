@@ -445,8 +445,8 @@ ul.ul-skills li {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
-  width: 74%;
-  font-size: 40px;
+  width: 210%;
+  font-size: 25px;
   line-height: 52px;
   justify-content: center;
   margin: 4px auto;
@@ -546,6 +546,7 @@ hr {
   flex-direction: column;
   gap: 50px;
   align-items: center;
+  font-size: 150%;
 }
 
 .evans {
@@ -553,6 +554,7 @@ hr {
   position: absolute;
   top: 5%;
   right: 5%;
+  font-size: 200%;
 }
 
 @media screen and (min-width: 992px) {
