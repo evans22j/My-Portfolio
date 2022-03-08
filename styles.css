@@ -537,15 +537,15 @@ hr {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: white;
+  background-color: #6070ff;
   width: 100vw;
 }
 
 .popUl {
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  align-items: center;
+  gap: 31px;
+  margin: 25%;
   font-size: 150%;
 }
 
@@ -554,7 +554,13 @@ hr {
   position: absolute;
   top: 5%;
   right: 5%;
-  font-size: 200%;
+  font-size: 100%;
+  color: white;
+}
+
+.link {
+  color: #fff;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 992px) {
