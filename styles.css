@@ -539,13 +539,14 @@ hr {
   left: 0;
   background-color: #6070ff;
   width: 100vw;
+  opacity: 0.9;
 }
 
 .popUl {
   display: flex;
   flex-direction: column;
   gap: 31px;
-  margin: 25%;
+  margin: 5%;
   font-size: 150%;
 }
 
@@ -553,14 +554,15 @@ hr {
   display: flex;
   position: absolute;
   top: 5%;
-  right: 5%;
-  font-size: 100%;
+  right: 10%;
+  font-size: 149%;
   color: white;
 }
 
 .link {
   color: #fff;
   font-weight: bold;
+  font-size: 30px;
 }
 
 @media screen and (min-width: 992px) {
