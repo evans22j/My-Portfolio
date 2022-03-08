@@ -1,27 +1,24 @@
-const mainMenu = document.querySelector(".menu");
-const nav = document.querySelector(".menu-mobile");
-const navList = document.querySelector(".nav-list");
-const bars = document.getElementById("bars");
-const evans = document.querySelector(".evans");
-const links = document.querySelectorAll(".link");
+const pop = () => {
+  const nav = document.querySelector('.menu-mobile');
+  const navList = document.querySelector('.nav-list');
+  nav.classList.add('popNav');
+  navList.classList.add('popUl');
+};
 
-function pop() {
-  nav.classList.add("popNav");
-  navList.classList.add("popUl");
-}
-bars.addEventListener("click", pop);
+const closePopup = () => {
+  const nav = document.querySelector('.menu-mobile');
+  const navList = document.querySelector('.nav-list');
+  nav.classList.remove('popNav');
+  navList.classList.remove('popUl');
+};
 
+const bars = document.getElementById('bars');
+bars.addEventListener('click', pop);
 
-function closePopup() {
-  nav.classList.remove("popNav");
-  navList.classList.remove("popUl");
-}
+const evans = document.querySelector('.evans');
+evans.addEventListener('click', closePopup);
 
-
-evans.addEventListener("click", closePopup);
-
-
-
+const links = document.querySelectorAll('.link');
 links.forEach((link) => {
-  link.addEventListener("click", closePopup);
+  link.addEventListener('click', closePopup);
 });
