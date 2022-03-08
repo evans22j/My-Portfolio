@@ -14,6 +14,7 @@ body {
 
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -444,8 +445,8 @@ ul.ul-skills li {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
-  width: 74%;
-  font-size: 40px;
+  width: 210%;
+  font-size: 25px;
   line-height: 52px;
   justify-content: center;
   margin: 4px auto;
@@ -469,7 +470,6 @@ ul.ul-skills li {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
-  margin: 10px auto;
   font-size: 20px;
   width: 305px;
   line-height: 28px;
@@ -530,6 +530,44 @@ hr {
   padding-bottom: 23px;
   align-items: center;
   justify-content: space-between;
+}
+
+.popNav {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #6070ff;
+  width: 100vw;
+  opacity: 0.9;
+}
+
+.popUl {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  margin: 5%;
+  font-size: 150%;
+}
+
+.evans {
+  display: flex;
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  font-size: 149%;
+  color: white;
+}
+
+.link {
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.hidden {
+  position: fixed;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 992px) {
@@ -623,6 +661,10 @@ hr {
     width: 150%;
   }
 
+  .evans {
+    display: none;
+  }
+
   .contact-form {
     background-color: #6070ff;
     width: 1440px;
@@ -654,5 +696,11 @@ hr {
 
   .skill {
     padding-left: 15%;
+  }
+
+  .link {
+    color: #344563;
+    font-weight: 500;
+    font-size: 15px;
   }
 }
