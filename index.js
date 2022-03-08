@@ -3,7 +3,7 @@ const pop = () => {
   const navList = document.querySelector('.nav-list');
   const blur = document.getElementById('header-text');
   nav.classList.add('popNav');
-  document.body.classList.add('hidden')
+  document.body.classList.add('hidden');
   navList.classList.add('popUl');
   blur.style.filter = 'blur(5px)';
 };
@@ -14,7 +14,7 @@ const closePopup = () => {
   const blur = document.getElementById('header-text');
   nav.classList.remove('popNav');
   navList.classList.remove('popUl');
-  document.body.classList.remove('hidden')
+  document.body.classList.remove('hidden');
 
   blur.style.filter = 'none';
 };

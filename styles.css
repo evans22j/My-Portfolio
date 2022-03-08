@@ -566,8 +566,8 @@ hr {
 }
 
 .hidden {
-  position:fixed;
-    overflow:hidden;
+  position: fixed;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 992px) {
