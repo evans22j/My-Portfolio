@@ -692,4 +692,10 @@ hr {
   .skill {
     padding-left: 15%;
   }
+
+  .link {
+    color: #344563;
+    font-weight: 500;
+    font-size: 15px;
+  }
 }

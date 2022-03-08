@@ -1,15 +1,19 @@
 const pop = () => {
   const nav = document.querySelector('.menu-mobile');
   const navList = document.querySelector('.nav-list');
+  const blur = document.getElementById('header-text');
   nav.classList.add('popNav');
   navList.classList.add('popUl');
+  blur.style.filter = 'blur(5px)';
 };
 
 const closePopup = () => {
   const nav = document.querySelector('.menu-mobile');
   const navList = document.querySelector('.nav-list');
+  const blur = document.getElementById('header-text');
   nav.classList.remove('popNav');
   navList.classList.remove('popUl');
+  blur.style.filter = 'none';
 };
 
 const bars = document.getElementById('bars');
