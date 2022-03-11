@@ -242,13 +242,13 @@ ul.classic li {
 
 .see-project {
   color: #396df2;
-  padding: 16px;
+  padding: 6px;
   background: #fff;
-  border-radius: 16px;
+  border-radius: 8px;
   border: solid 1px #396df2;
   margin-top: 0;
-  transition: transform, color, 3s;
-  transform: scale(1.2);
+  /* transition: transform, color, 3s;
+  transform: scale(1.2); */
 }
 
 .see-project-btn {
@@ -602,6 +602,15 @@ hr {
   margin: 20px 8em 20px 0;
 }
 
+.card-details .logo-tag {
+  height:auto;
+  width: 15%;
+}
+
+.close-btn {
+  margin-left: 266px;
+}
+
 @media screen and (min-width: 992px) {
   .content {
     background-image: url(./photos/Header-bg.svg);
@@ -670,7 +679,7 @@ hr {
   }
 
   .text-div {
-    width: 50%;
+    /* width: 50%; */
     margin: 10px;
     padding: 20px;
   }
@@ -740,7 +749,7 @@ hr {
     display: flex;
     justify-content:center;
     align-items: center;
-    padding:12px;
+    padding:8px;
   }
 
   .links {
@@ -792,14 +801,14 @@ hr {
   .pop-btns {
     display: flex;
     align-items: center;
-    margin: 10px 439px 23px 0;
+    margin: 3px 382px 23px 0;
   }
  
   .pop-div {
     display: grid;
     margin-top: 50px;
-    grid-template-columns: 45% 63%;
-    gap: 20%;
+    grid-template-columns: 2fr 1fr;
+    /* gap: 20%; */
   }
 
   .close-btn {
@@ -807,6 +816,6 @@ hr {
   }
   .card-details .logo-tag {
     height:auto;
-    width: auto;
+    width: 55%;
   }
 }
