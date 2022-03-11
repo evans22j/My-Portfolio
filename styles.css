@@ -247,8 +247,6 @@ ul.classic li {
   border-radius: 8px;
   border: solid 1px #396df2;
   margin-top: 0;
-  /* transition: transform, color, 3s;
-  transform: scale(1.2); */
 }
 
 .see-project-btn {
@@ -266,6 +264,8 @@ ul.classic li {
   background-color: #6070ff;
   color: white;
   color: rgb(143, 10, 10);
+  transition: transform, color, 3s;
+  transform: scale(1.2);
 }
 
 .see-project:active {
@@ -303,6 +303,7 @@ ul.classic li {
   color: #000;
   list-style: none;
 }
+
 .tech-btns {
   display: flex;
   gap: 25px;
@@ -578,24 +579,25 @@ hr {
 
 .pop-bg .card-details {
   height: 713px;
- margin:auto;
+  margin: auto;
 }
 
 .pop-bg {
-  display:none;
+  display: none;
+
   /* background-color: #C1C7D0 ; */
   background-color: rgba(0, 0, 0, 0.4);
   height: 100vh;
   padding-top: 50px;
   width: 100%;
-  position:fixed;
+  position: fixed;
   z-index: 10;
   top: 0;
   left: 0;
 }
 
 .display {
-  display:block
+  display: block;
 }
 
 .t-pop {
@@ -603,7 +605,7 @@ hr {
 }
 
 .card-details .logo-tag {
-  height:auto;
+  height: auto;
   width: 15%;
 }
 
@@ -747,9 +749,9 @@ hr {
 
   .see-project-dsk {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    padding:8px;
+    padding: 8px;
   }
 
   .links {
@@ -757,7 +759,6 @@ hr {
     margin-left: 22px;
     gap: 20%;
   }
-
 
   .pop-bg .card-details {
     height: auto;
@@ -773,6 +774,7 @@ hr {
     padding-top: 12px;
     padding-bottom: 12px;
   }
+
   .pop-data {
     display: flex;
     flex-direction: column;
@@ -782,10 +784,9 @@ hr {
     width: 67%;
     border-radius: 16px;
   }
-  
+
   .pop-bg {
     overflow-y: scroll;
-
   }
 
   .pop-data .image {
@@ -795,7 +796,7 @@ hr {
 
   .p-pop {
     color: #344563;
-    line-height:30px
+    line-height: 30px;
   }
 
   .pop-btns {
@@ -803,19 +804,21 @@ hr {
     align-items: center;
     margin: 3px 382px 23px 0;
   }
- 
+
   .pop-div {
     display: grid;
     margin-top: 50px;
     grid-template-columns: 2fr 1fr;
+
     /* gap: 20%; */
   }
 
   .close-btn {
     margin-left: 750px;
   }
+
   .card-details .logo-tag {
-    height:auto;
+    height: auto;
     width: 55%;
   }
 }
