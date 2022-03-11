@@ -181,26 +181,6 @@ function vanish() {
   popDiv.innerHTML = "";
 }
 
-
-//form validation
-
-// const form = document.getElementById("contact")
-// const email = document.getElementById("email")
-// const textArea = document.getElementById("textarea")
-
-
-// form.addEventListener("submit",e => {
-//   e.preventDefault();
-
-//   validateImputs();
-// })
-
-// const validateImputs = () => {
-
-//   const textAreaValue = textarea.value.trim();
-//   const emailValue = email.value.trim();
-// }
-
 // Form Validation
 
 const errorMessage = document.querySelector('.error-message');
