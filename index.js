@@ -29,6 +29,8 @@ links.forEach((link) => {
   link.addEventListener('click', closePopup);
 });
 
+// pop up window
+
 const seeProject = document.querySelectorAll('.btn-pop');
 const popup = document.querySelector('.pop-bg');
 
@@ -165,16 +167,68 @@ const modalData = (card) => {
   popDiv.appendChild(template.content);
 };
 
-/* eslint-disable */ 
-const seeProjects = document.querySelectorAll('.see-project');
+/* eslint-disable */
+const seeProjects = document.querySelectorAll(".see-project");
 function showpopup(id) {
   cards.find((item) => {
     if (Number(id) === Number(item.id)) return modalData(item);
   });
-  popDiv.classList.add('display');
+  popDiv.classList.add("display");
 }
 
 function vanish() {
-  popDiv.classList.remove('display');
-  popDiv.innerHTML = '';
+  popDiv.classList.remove("display");
+  popDiv.innerHTML = "";
+}
+
+// Form Validation
+
+const errorMessage = document.querySelector('.error-message');
+const form = document.querySelector('.form');
+const formElement = form.querySelectorAll('input, textarea');
+
+formElement.forEach((fe) => {
+  fe.addEventListener('input', () => {
+    errorMessage.style.display = 'none';
+  });
+});
+
+document.getElementById('submit').addEventListener('click', (e) => {
+  const email = document.getElementById('email').value;
+  const emailValidation = /[A-Z]/.test(email);
+
+  if (emailValidation) {
+    errorMessage.style.display = 'block';
+    e.preventDefault();
+  }
+});
+
+
+//local storage
+
+const userName = document.getElementById('name');
+const userMail = document.getElementById('email');
+const textMessage = document.getElementById('textarea');
+
+function myLocalStorage() {
+  const formData = {
+    myName: userName.value,
+    email: userMail.value,
+    message: textMessage.value,
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+
+const getInput = document.querySelectorAll('input, textarea');
+for (let i = 0; i < getInput.length; i += 1) {
+  getInput[i].addEventListener('change', () => {
+    myLocalStorage();
+  });
+}
+
+const inputData = JSON.parse(localStorage.getItem('formData'));
+if (inputData !== null) {
+  userName.value = inputData.myName;
+  userMail.value = inputData.email;
+  textMessage.value = inputData.message;
 }
