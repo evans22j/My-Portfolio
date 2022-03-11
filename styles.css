@@ -453,8 +453,9 @@ ul.ul-skills li {
   width: 210%;
   font-size: 25px;
   line-height: 52px;
+  padding-right: -65px;
   justify-content: center;
-  margin: 4px auto;
+  margin: 4px 0 0 168%;
   padding-top: 155px;
   color: #fff;
 }
@@ -664,7 +665,7 @@ hr {
   .card-details {
     flex-direction: inherit;
     height: auto;
-    width: auto;
+    width: 90%;
   }
 
   .reverse {
@@ -722,7 +723,7 @@ hr {
   }
 
   .contact-form p {
-    width: 100%;
+    width: 569px;
   }
 
   .lang-name h2 {

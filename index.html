@@ -74,8 +74,7 @@
     </section>
     <main class="">
       <section>
-        <ul class="cards">
-        </ul>
+        <ul class="cards"></ul>
       </section>
       <section id="about" class="About-Myself">
         <div class="grid">
@@ -179,6 +178,7 @@
             action="https://formspree.io/f/moqrddlk"
             method="POST"
             class="form"
+            id="contact-form"
           >
             <input
               type="text"
@@ -204,13 +204,17 @@
               maxlength="500"
               required
             ></textarea>
-            <button class="see-project-btn" type="submit">Get It Touch</button>
+            <div class="error-message">
+              <p id="error">
+                To submit the form, please enter your email in lowercase
+              </p>
+            </div>
+            <button class="see-project-btn" type="submit" id="submit">Get It Touch</button>
           </form>
         </div>
       </section>
 
-    <div class="pop-bg">
-      </div>
+      <div class="pop-bg"></div>
     </main>
     <script src="./index.js"></script>
     <!-- <script src="./modal.js"></script> -->
