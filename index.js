@@ -181,7 +181,6 @@ function vanish() {
   popDiv.innerHTML = "";
 }
 
-
 // Form Validation
 
 const errorMessage = document.querySelector('.error-message');
@@ -203,3 +202,33 @@ document.getElementById('submit').addEventListener('click', (e) => {
     e.preventDefault();
   }
 });
+
+
+//local storage
+
+const userName = document.getElementById('name');
+const userMail = document.getElementById('email');
+const textMessage = document.getElementById('textarea');
+
+function myLocalStorage() {
+  const formData = {
+    myName: userName.value,
+    email: userMail.value,
+    message: textMessage.value,
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+
+const getInput = document.querySelectorAll('input, textarea');
+for (let i = 0; i < getInput.length; i += 1) {
+  getInput[i].addEventListener('change', () => {
+    myLocalStorage();
+  });
+}
+
+const inputData = JSON.parse(localStorage.getItem('formData'));
+if (inputData !== null) {
+  userName.value = inputData.myName;
+  userMail.value = inputData.email;
+  textMessage.value = inputData.message;
+}
